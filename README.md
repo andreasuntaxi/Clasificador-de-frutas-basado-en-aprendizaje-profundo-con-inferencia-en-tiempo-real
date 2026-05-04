@@ -48,3 +48,9 @@ Clonar el repositorio:
 ```bash
 git clone https://github.com/tu-usuario/ClasificadorFrutasAWS.git
 cd ClasificadorFrutasAWS
+
+o descargar, entrenar el modelo, y ejecutar en la terminal de windows:
+python -m venv venv
+venv\Scripts\activate
+pip install torch torchvision opencv-python pillow
+python realtime_fruits.py
